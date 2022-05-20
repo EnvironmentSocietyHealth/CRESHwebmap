@@ -13,9 +13,10 @@ library(mongolite)
 library(rgdal)
 library(DT)
 library(leaflet.extras)
-library(sweetalertR)
+library(data.table)
+#library(sweetalertR)
 # devtools::install_github("hrbrmstr/ipapi")
-library(ipapi)
+#library(ipapi)
 
 ## load local authority shapefile
 geog<-readRDS("geography/councilareas.rds")
